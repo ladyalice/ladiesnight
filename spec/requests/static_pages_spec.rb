@@ -32,7 +32,7 @@ end
 		visit '/static_pages/map'
 		page.should have_content('Map')
 	end
-
+end
 
 
 end

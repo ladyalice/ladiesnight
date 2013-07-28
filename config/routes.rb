@@ -1,4 +1,7 @@
 Snowbody::Application.routes.draw do
+  get 'about' => 'pages#about'
+  root :to =>'pages#home'
+
   root :to => 'static_pages#home'
   get "static_pages/home"
 
